@@ -224,5 +224,3 @@ CLOUDINARY_STORAGE = {
     'API_KEY':config('CLOUDINARY_APIKEY'),
     'API_SECRET':config('CLOUDINARY_APISECRET')
 }
-if os.getcwd() == '/app':
-    DEBUG = False
