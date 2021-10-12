@@ -222,3 +222,8 @@ CLOUDINARY_STORAGE = {
     'API_KEY':config('CLOUDINARY_APIKEY'),
     'API_SECRET':config('CLOUDINARY_APISECRET')
 }
+
+# if os.getcwd()== '/app':
+#     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+#     SECURE_SSL_REDIRECT = True
+#     DEBUG= False
